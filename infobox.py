@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8  -*-
-# Pywikibot script for importing infoboxes (for German localities) from enwiki
+# Pywikibot script for importing infoboxes (for German localities) from enwiki - works on one page
 
 import pywikibot, re, sys, locale
 
@@ -15,7 +15,7 @@ m0 = m0.group(1)
 m0 = m0.replace("Infobox German Location", u"Cutie Orașe DE")
 """
 text = re.sub(u"insee = .*\n", match, text)
-box = re.sub(u"\{\{Infobox German Location(.*)\}\}\n*\'\'\'", u"{{Cutie Orașe DE%s}}\n'''" %s\1, text, flags=re.DOTALL)
+box = re.sub(u"\{\{Infobox German Location(.*)\}\}\n*\'\'\'", u"{{Cutie Orașe DE%s}}\n'''" %s\1, text, flags=re.IGNORECASE|re.DOTALL)
 box2 = re.search(u"(\{\{Cutie Orașe DE.*\}\})\n*\'\'\'", box, flags=re.DOTALL)
 """
 #match = m1.group()
