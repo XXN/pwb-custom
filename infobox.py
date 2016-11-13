@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8  -*-
-# Pywikibot script for importing infoboxes (for German localities) from enwiki - works on one page
+# Pywikibot script for importing infoboxes (for German localities) from enwiki. This version works on one page
 
 import pywikibot, re, sys, locale
 
