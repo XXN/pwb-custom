@@ -1,8 +1,5 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-               
-"""
-pwb.py listpages -transcludes:Cite_QPN -format:3 > myfile.txt
-"""
+# -*- coding: utf-8 -*-
 #
 # (C) XXN, 2017
 #
