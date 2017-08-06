@@ -1,2 +1,2 @@
 # pwb-custom
-Some custom pwb scripts.
+Some simple custom demo pwb scripts.
